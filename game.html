@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css?family=Itim|Kanit|Mali" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:30px">ชื่อนิยายของคุณคือ...</h1>
+            <div class="container">
+                <div class="item">
+                    <label for="day">วันเกิด</label>
+                    <select name="" id="day">
+                        <option value="mon">จันทร์</option>
+                        <option value="tue">อังคาร</option>
+                        <option value="wen">พุธ</option>
+                        <option value="thu">พฤหัส</option>
+                        <option value="fri">ศุกร์</option>
+                        <option value="sat">เสาร์</option>
+                        <option value="sun">อาทิตย์</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="day">เดือนเกิด</label>
+                    <select name="" id="month">
+                        <option value="1">มกราคม</option>
+                        <option value="2">กุมภาพันธ์</option>
+                        <option value="3">มีนาคม</option>
+                        <option value="4">เมษายน</option>
+                        <option value="5">พฤษภาคม</option>
+                        <option value="1">มิถุนายน</option>
+                        <option value="2">กรกฎาคม</option>
+                        <option value="3">สิงหาคม</option>
+                        <option value="4">กันยายน</option>
+                        <option value="5">ตุลาคม</option>
+                        <option value="1">พฤศจิกายน</option>
+                        <option value="2">ธันวาคม</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="year">ตัวเลขสุดท้ายปีเกิด</label>
+                    <select name="" id="year">
+                        <option value="1">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container">
+                <div class="item">
+                    <button class='button button2' id="go">ทาย</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="item2">
+                    <h3 id="result"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
